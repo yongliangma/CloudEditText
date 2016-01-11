@@ -1,4 +1,7 @@
-#CloudEditText 
+#TestCloudEditText 
+把CloudEditText库放到一个Android工程里查看效果
+CloudEditText地址：https://github.com/g707175425/CloudEditText
+
 ####(EditText内容分不同块显示,支持校验,删除块,添加块,得到块代表的字符串集合)
 
 ###预览效果:

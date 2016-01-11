@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.testcloudedittext.MainActivity" >
+
+    <cn.schope.lightning.view.ContactCloudEditTextImpl
+        android:id="@+id/et_user_contact"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="手机号/邮箱"
+        android:inputType="textEmailAddress|textMultiLine"
+        android:padding="10dp"
+        android:textColorHint="#AAAAAA" />
+
+    <Button
+        android:id="@+id/btn_getAllStrings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取字符串" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_addSpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加一个默认块" >
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" >
+    </TextView>
+
+</LinearLayout>
